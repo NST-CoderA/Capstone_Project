@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Syne;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    overflow: scroll;
+    background-color: #ECF6FE;
+    padding: 0px 48px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+}
+.header{
+    border-bottom: 1px solid #440A8F;
+}
+.title{
+    display: flex;
+    padding: 16px 0px;
+    gap:0px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.right-title{
+    display: flex;
+    justify-content: end;    
+    gap:32px
+}
+
+.text p{
+    display: inline;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    cursor: pointer;
+}
+.body{
+    padding: 48px 0px;
+}
+.top{
+    border-bottom: 1px solid #ECF6FE;
+    padding: 96px 0px;
+    gap:48px;
+    text-align: center;
+}
+.Heading p{
+    font-family: Syne;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    color: #381664;
+}
+.city{
+    width: 100%x;
+    height: 672px;
+    border-radius: 22px;
+    border-top: 1px solid #440A8F;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.row1{
+    width: 100%;
+    height: 429px;
+    /* original padding is 48px top */
+    /* padding: 40px 0px 40px 0px;  */
+    gap: 48px;
+    background: #ECF6FE;
+}
+.img1{
+    width: 416px;
+    height: 333px;
+    gap: 8px;
+    cursor: pointer;
+}
+.imag{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 22px;
+}
+.images{
+    width: 100%;
+    height: 1200 px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgtext p:nth-child(odd){
+    font-family: Familjen Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.imgtext p:nth-child(even){
+    font-family: Familjen Grotesk;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.intro{
+    width: 100%;
+    height: 280px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.intro-text{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(56, 22, 100, 1);
+}
+.info{
+    width: 50%;
+    height: 184px;
+    gap: 16px;
+}
+.info-text p{
+    font-family: Familjen Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    display: inline;
+    color: rgba(56, 22, 100, 1);
+}
+.info-text{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.about{
+    width: 100%;
+    height: 1814px;
+    padding: 200px 0px 96px 0px;
+    gap: 96px;
+    border: 0px 0px 1px 0px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-text{
+    width: 900px;
+    height: 612px;
+    max-width: 900px;
+    gap: 0px;
+}
+.about-text p{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;   
+    color: rgba(56, 22, 100, 1);
+}
+.about-img img{
+    width: 100%;
+    height: 810px;
+    gap: 0px;
+    border-radius: 22px;
+    border: 1px 0px 0px 0px;    
+}
+.mywork{
+    width: 1536px;
+    height: 720px;
+    left: -96px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mywork-text{
+    width: 100%;
+    height: 212 px;
+    top: 254 px;
+    gap: 48 px;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.ready-text{
+    width: 90%;
+    height: 116 px;
+    max-width: 1260 px;
+    gap: 16 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rr1{
+    width: 90%;
+    height: auto;
+    gap: 0px;
+}
+.rr1 p{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 6px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: rgba(56, 22, 100, 1);
+}
+.rr2{
+    width: 90%;
+    height: auto;
+    gap: 0px;    
+}
+.rr2 p{
+    font-family: Familjen Grotesk;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 6px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color:rgba(56, 22, 100, 1);
+}
+.mywork-button{
+    width: 200px;
+    height: 25px;
+    padding: 0 0 40px 0;
+    gap: 0px;
+    border-radius: 40px;   
+    background: rgba(68, 10, 143, 1);
+    margin-top:40px;
+    cursor: pointer;
+}
+.mywork-button p{
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(252, 250, 255, 1);
+}
+.contact{
+    width: 1344 px;
+    height: 360 px;
+    gap: 96px;
+    border: 0px 0px 1px 0px;
+}
+.contact2{
+    width: 100%;
+    height: 168px;
+    gap: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.contact-me{
+    width: 624px;
+    height: 52px;
+    gap: 0px;    
+}
+.contact-me p{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: rgba(56, 22, 100, 1);
+}
+.contact-text{
+    width: 624px;
+    height: 72px;
+    padding-top: 8px;
+    gap: 0px;
+}
+.contact-text p{
+    font-family: Familjen Grotesk;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color:rgba(56, 22, 100, 1);
+}
+/* Footer */
+.footer{
+    border: 1.5px;
+    padding: 96px 0px;
+    gap:48px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FU{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.FC{
+    width: 429px;
+    gap:12px;
+    height:48px;
+    overflow: hidden;
+    border: 0px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.FC div{
+    width: 429px;
+    height: 30px;
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 50px;
+    border: 1px solid rgba(68, 10, 143, 1);   
+    background-color: rgba(255, 255, 255, 1);
+    line-height: 24px;
+
+}
+.FC input[type="text"]{
+    font-family: Familjen Grotesk;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(56, 22, 100, 1);
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.FC button{
+    width: 159px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 0px;
+    border-radius: 22px;  
+    color: rgba(252, 250, 255, 1);
+    background-color: rgba(68, 10, 143, 1);
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+.FL{
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FL img{
+    cursor: pointer;
+}
