@@ -46,6 +46,13 @@ body{
     line-height: 32px;
     cursor: pointer;
 }
+.text{
+    transition: all 0.3s ease;
+}
+.text:hover{
+    color: blue;
+    scale: 1.15;
+}
 .body{
     padding: 48px 0px;
 }
@@ -74,6 +81,11 @@ body{
     border-radius: 22px;
     border-top: 1px solid #440A8F;
     object-fit: cover;
+    transition: all 0.2s ease-in-out;
+}
+.city:hover{
+    scale: 1.1;
+
 }
 .row1{
     display: flex;
@@ -96,7 +108,13 @@ body{
     gap: 8px;
     cursor: pointer;
     margin: 10px;
+    transition: all 0.3s ease-in;
 }
+.img1:hover{
+    scale: 1.05;
+    color: blue;
+}
+
 .imag{
     width: 416px;
     height: 277px;
@@ -107,7 +125,7 @@ body{
 .images{
     width: 100%;
     height: 100%;
-    gap: 0px;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -132,6 +150,7 @@ body{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;    
 }
+
 .intro{
     width: 100%;
     height: 280px;
@@ -162,7 +181,7 @@ body{
     padding: 0px 30px;
 }
 .info-text p{
-    line-height: 16px;
+    margin-bottom: 20px;
     font-family: Familjen Grotesk;
     font-size: 20px;
     font-weight: 400;
@@ -172,6 +191,12 @@ body{
     text-decoration-skip-ink: none;    
     display: flex;
     color: rgba(56, 22, 100, 1);
+    transition: all 0.3s ease-in-out;
+}
+.info-text p:hover{
+    scale: 1.2;
+    transform: rotateX(360deg);
+    color: darkviolet;
 }
 .info-text{
     display: flex;
@@ -291,6 +316,11 @@ body{
     background: rgba(68, 10, 143, 1);
     margin-top:40px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.mywork-button:hover{
+    scale: 1.2;
+    background-color: darkturquoise;
 }
 .mywork-button p{
     font-family: Space Mono;
@@ -316,13 +346,17 @@ body{
     gap: 96px;
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
+    border-bottom: 1px solid rgba(68, 10, 143, 1);
+    border-top: 1px solid rgba(68, 10, 143, 1);
+    padding: 150px 0;
 }
 .contact-me{
     width: 624px;
     height: 52px;
-    gap: 0px;    
+    transition: all 0.3s ease-in-out;
 }
+
 .contact-me p{
     font-size: 48px;
     font-weight: 700;
@@ -332,6 +366,16 @@ body{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;    
     color: rgba(56, 22, 100, 1);
+}
+.contact-me p a{
+    transition: all 0.3s ease-in-out;
+}
+.contact-me:hover{
+    color: darkturquoise;
+    scale: 1.1;
+}
+.contact-me a:hover{
+    color: darkturquoise;
 }
 .contact-text{
     width: 624px;
@@ -445,9 +489,15 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.msg:hover{
+    background-color: darkturquoise;
+    color: black;
+    scale: 1.2;
 }
 .msg2{
-    width: 100%;
+    width: 15%;
     color: rgba(68, 10, 143, 1);
     background-color: transparent; 
     border-radius: 8px;
@@ -462,6 +512,12 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.msg2:hover{
+    scale: 2;
+    rotate: 360deg;
+    color: darkturquoise;
 }
 .eight-input{
     display: flex;
@@ -496,7 +552,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     width: 429px;
     gap:12px;
     height:48px;
-    overflow: hidden;
+    
     border: 0px;
     display: flex;
     box-sizing: border-box;
@@ -545,6 +601,11 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.FC button:hover{
+    background-color: darkturquoise;
+    box-shadow: 10px 12px 6px lightgrey;
 }
 .FL{
     gap: 32px;
@@ -554,6 +615,10 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 .FL img{
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.FL img:hover{
+    scale: 1.2;
 }
 .header{
     width: 100%;
