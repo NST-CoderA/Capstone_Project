@@ -585,6 +585,11 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
     box-sizing: border-box;
     background-color: transparent;
 }
+
+.FC input[type="text"]:hover {
+    border: 1px solid rgba(68, 10, 143, 1);
+}
+
 .FC button{
     width: 159px;
     height: 48px;
