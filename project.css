@@ -142,23 +142,27 @@ body{
     align-items: center;
 }
 .intro-text{
-    font-size: 28px;
     font-weight: 700;
-    line-height: 32px;
+    height: 100%;
+    width: 10%;
     letter-spacing: -0.01em;
     text-align: left;
+    display: flex;
+    justify-content: flex-start;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: rgba(56, 22, 100, 1);
 }
 .info{
-    width: 100%;
+    height: 100%;
     gap: 16px;
-    width: fit-content;
+    width: 40%;
     display: flex;
+    justify-content: space-between;
     padding: 0px 30px;
 }
 .info-text p{
+    line-height: 16px;
     font-family: Familjen Grotesk;
     font-size: 20px;
     font-weight: 400;
@@ -166,13 +170,13 @@ body{
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;    
-    display: inline;
+    display: flex;
     color: rgba(56, 22, 100, 1);
 }
 .info-text{
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:flex-start;
 }
 .about{
     width: 100%;
@@ -279,15 +283,13 @@ body{
 .mywork-button{
     width: 200px;
     height: 25px;
-    padding: 0 0 40px 0;
+    padding: 8px;
+    padding-bottom: 10px;;
+    padding-left: 50px;
     gap: 0px;
     border-radius: 40px;   
     background: rgba(68, 10, 143, 1);
     margin-top:40px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 .mywork-button p{
@@ -568,6 +570,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 
     .right-title {
         justify-content: center;
+        margin-top: 20px;
         gap: 16px; 
     }
 
