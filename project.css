@@ -619,6 +619,7 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
 }
 .FL img:hover{
     scale: 1.2;
+    transform: rotateY(360deg);
 }
 .header{
     width: 100%;
